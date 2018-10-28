@@ -19,8 +19,15 @@
 
 四、code
 ============
-1. csitool 给定的函数read_bf_file.m,get_scaled_csi.m.
-2. matlab 自带的函数squeeze和spline函数 
+5. csitool 给定的函数read_bf_file.m,get_scaled_csi.m.
+6. matlab 自带的函数squeeze和spline函数 
+
+五、截图
+===
+![the real of csi](https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_real.jpg)
+
+![the imag of csi](https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_imag.jpg)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODA1MDYyN119
+eyJoaXN0b3J5IjpbMTg2NzYxNTE5OV19
 -->
