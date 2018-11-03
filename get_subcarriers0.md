@@ -24,19 +24,25 @@
 <li>
 <blockquote>
 <p>csi_trace=read_bf_file(‘data1/data1/018.dat’)<br>
-csi_entry=csi_trace{1}<br>
-csi=get_scaled_csi(csi_entry)<br>
+csi_entry=csi_trace{1}csi=get_scaled_csi(csi_entry)<br>
 csi_a = db(abs(csi(:,1,:)))<br>
 csi_a=squeeze(csi_a)<br>
 x=1:30<br>
 xx=0:.25:29<br>
 csi_y=spline(x,csi_a,xx)<br>
-plot(x,csi_a,‘o’,xx,csi_y)</p>
+plot(x,csi_a,‘o’'o',xx,csi_y)</p>
 </blockquote>
 </li>
 <li></li>
 </ol>
 <h1 id="五、截图">五、截图</h1>
-<p><img src="https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_real.jpg" alt="the real of csi"></p>
-<p><img src="https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_imag.jpg" alt="the imag of csi"></p>
+<p><img src="
+8.
 
+==
+ealocsihttps://github.com/Charliegean/laboratory/tree/master/picture/18_spline_real.jpg" alt="the real of csi"></p>
+<p><img src="https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_imag.jpg" alt="the imag of csi"></p>)
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEwMTk1OTYzNl19
+-->
