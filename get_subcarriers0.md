@@ -21,7 +21,8 @@
 ============
 5. csitool 给定的函数read_bf_file.m,get_scaled_csi.m.
 6. matlab 自带的函数squeeze和spline函数 
-7. '''csi_trace=read_bf_file('data1/data1/018.dat')... csi_entry=csi_trace{1}...  csi=get_scaled_csi(csi_entry)'''
+7. '''
+	csi_trace=read_bf_file('data1/data1/018.dat')... csi_entry=csi_trace{1}...  csi=get_scaled_csi(csi_entry)'''
 
 五、截图
 ===
@@ -30,5 +31,5 @@
 ![the imag of csi](https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_imag.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODE1NzkzNCwxODY3NjE1MTk5XX0=
+eyJoaXN0b3J5IjpbMzE0OTQ1OTQ0LDE4Njc2MTUxOTldfQ==
 -->
