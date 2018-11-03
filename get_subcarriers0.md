@@ -23,8 +23,13 @@
 6. matlab 自带的函数squeeze和spline函数 
 7. 
 	>csi_trace=read_bf_file('data1/data1/018.dat')
-		csi_entry=csi_trace{1}...
+		csi_entry=csi_trace{1}
 		csi=get_scaled_csi(csi_entry)
+csi_a = db(abs(csi(:,1,:)))
+csi_a=squeeze(csi_a)
+x=1:30
+xx=0:.25:29
+csi_y=spline(x,csi_a,xx)
 
 五、截图
 ===
@@ -33,5 +38,5 @@
 ![the imag of csi](https://github.com/Charliegean/laboratory/tree/master/picture/18_spline_imag.jpg)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NDg5MjMwLDE4Njc2MTUxOTldfQ==
+eyJoaXN0b3J5IjpbLTI1MDI4MzUzMiwxODY3NjE1MTk5XX0=
 -->
