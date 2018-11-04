@@ -209,6 +209,128 @@
 <td align="right">/</td>
 </tr>
 </tbody>
-</table></li>
+</table><ol start="3">
+<li>对于已知的数据，根据number of matrices and carrier grouping 可知，对于64个 数据应该是20MHz，采取Ng=2时Ns=30，即取值为</li>
 </ol>
+<blockquote>
+<p>-28, -26, -24, -22, -20, -18, -16, -14, -12, -10, -8, -6, -4, -2, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 28.</p>
+</blockquote>
+</li>
+</ol>
+<p>写出对应关系，</p>
+<blockquote>
+<p>28-&gt; 61 , …… , 1 -&gt; 34, -1 -&gt;32,-28-&gt;5.</p>
+</blockquote>
+<p>所以待抽取的数值下表应该是：</p>
+
+<table>
+<thead>
+<tr>
+<th>init</th>
+<th align="center">now/true</th>
+<th align="center">init</th>
+<th align="center">now/true</th>
+<th align="center">init</th>
+<th align="center">now/true</th>
+<th align="center">init</th>
+<th align="center">now/true</th>
+<th align="center">init</th>
+<th align="center">now/true</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28</td>
+<td align="center">61/56</td>
+<td align="center">15</td>
+<td align="center">48/43</td>
+<td align="center">1</td>
+<td align="center">34/29</td>
+<td align="center">-12</td>
+<td align="center">21/17</td>
+<td align="center">-26</td>
+<td align="center">7/3</td>
+</tr>
+<tr>
+<td>27</td>
+<td align="center">60/55</td>
+<td align="center">13</td>
+<td align="center">46/41</td>
+<td align="center">-1</td>
+<td align="center">32/28</td>
+<td align="center">-14</td>
+<td align="center">19/15</td>
+<td align="center">-28</td>
+<td align="center">5/1</td>
+</tr>
+<tr>
+<td>25</td>
+<td align="center">58/53</td>
+<td align="center">11</td>
+<td align="center">44/39</td>
+<td align="center">-2</td>
+<td align="center">31/27</td>
+<td align="center">-16</td>
+<td align="center">17/13</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>23</td>
+<td align="center">56/51</td>
+<td align="center">9</td>
+<td align="center">42/37</td>
+<td align="center">-4</td>
+<td align="center">29/25</td>
+<td align="center">-18</td>
+<td align="center">15/11</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>21</td>
+<td align="center">54/49</td>
+<td align="center">7</td>
+<td align="center">40/35</td>
+<td align="center">-6</td>
+<td align="center">27/23</td>
+<td align="center">-20</td>
+<td align="center">13/9</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>19</td>
+<td align="center">52/47</td>
+<td align="center">5</td>
+<td align="center">38/33</td>
+<td align="center">-8</td>
+<td align="center">25/21</td>
+<td align="center">-22</td>
+<td align="center">11/7</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>17</td>
+<td align="center">50/45</td>
+<td align="center">3</td>
+<td align="center">36/31</td>
+<td align="center">-10</td>
+<td align="center">23/19</td>
+<td align="center">-24</td>
+<td align="center">9/5</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table><p>figure 2 数值对应关系</p>
+<ol start="4">
+<li>根据三维插值法，需要根据30个数据获得56个数据对于算法</li>
+</ol>
+<blockquote>
+<p>res = spline（x_a，data，xx）;<br>
+x=-28, -26, -24, -22, -20, -18, -16, -14, -12, -10, -8, -6, -4, -2, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 28.<br>
+x_a可以根据f.2获得对应的数值。</p>
+</blockquote>
 
