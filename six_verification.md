@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="checkout-whether-the-cubic-spline-interpolation">checkout whether the cubic spline interpolation</h1>
+<h1 id="checkout-whether-the-cubic-spline-interpolation-is-right.">checkout whether the cubic spline interpolation is right.</h1>
 <h3 id="charliegean--2018-11-3">charliegean  2018-11-3</h3>
 <p>一、目标：</p>
 <ol>
