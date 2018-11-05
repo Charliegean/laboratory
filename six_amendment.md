@@ -22,8 +22,11 @@
 </blockquote>
 <p>的规模插值模拟。</p>
 <p><img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_data_1.jpg" alt="初始数据" title="初始数据"><br>
+p1：初始数据<br>
 <img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_res.jpg" alt="插值后的数据" title="插值后的数据"><br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_chan_unwrap.jpg" alt="相位差" title="相位差"></p>
+p2：插值后的数据<br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_chan_unwrap.jpg" alt="相位差" title="相位差"><br>
+p3：两者的相位差</p>
 </li>
 <li>
 <p>unwrap的容差应该足够小。</p>
