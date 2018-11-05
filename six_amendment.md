@@ -45,11 +45,15 @@ p3：两者的相位差</p>
 <li>分为实部和虚部分别模拟，总体效果差于相位模拟，但远远优于振幅模拟，特别是需要的28~29号数据附近，模拟效果良好。具体结果看（四）中配图。</li>
 </ol>
 <p>四、试验结果配图：</p>
-<p><img src=",%22%E6%8C%AF%E5%B9%85%E6%A8%A1%E6%8B%9F%22" alt="振幅模拟">	<br>
-<img src=",%22%E7%9B%B8%E4%BD%8D%E6%A8%A1%E6%8B%9F%22" alt="相位模拟"><br>
-<img src=",%22%E5%AE%9E%E9%83%A8%E6%A8%A1%E6%8B%9F%22" alt="实部模拟"><br>
-<img src=",%22%E8%99%9A%E9%83%A8%E6%A8%A1%E6%8B%9F%22" alt="虚部模拟"></p>
-<p>五、代码（仅贴模拟振幅部分且插值区间放大1000倍的代码）</p>
+<p><img src="https://github.com/Charliegean/laboratory/blob/master/picture/r_1000_333.jpg" alt="振幅模拟">	<br>
+振幅模拟<br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_1000.jpg" alt="相位模拟"><br>
+相位模拟<br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/real_1000.jpg" alt="实部模拟"><br>
+实部模拟<br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/imag_1000.jpg" alt="虚部模拟"><br>
+虚部模拟<br>
+五、代码（仅贴模拟振幅部分且插值区间放大1000倍的代码）</p>
 <blockquote>
 <p>load(‘chanest_ex1.mat’);<br>
 data=unwrap(abs(chanEst),0.1);<br>
