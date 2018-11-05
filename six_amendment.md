@@ -21,12 +21,9 @@
 <p>5,10,20,50,100</p>
 </blockquote>
 <p>的规模插值模拟。</p>
-<p><img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_data_1.jpg" alt="初始数据" title="初始数据"><br>
-p1：初始数据<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_res.jpg" alt="插值后的数据" title="插值后的数据"><br>
-p2：插值后的数据<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_chan_unwrap.jpg" alt="相位差" title="相位差"><br>
-p3：两者的相位差</p>
+<p>fig1：初始数据<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_data_1.jpg" alt="初始数据" title="初始数据"><br>
+fig2：插值后的数据<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_res.jpg" alt="插值后的数据" title="插值后的数据"><br>
+fig3：两者的相位差<img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_chan_unwrap.jpg" alt="相位差" title="相位差"></p>
 </li>
 <li>
 <p>unwrap的容差应该足够小。</p>
@@ -44,16 +41,16 @@ p3：两者的相位差</p>
 <li>使用欧拉定理，分解为相位和振幅，其中相位在容错为pi/2时，模拟效果很好。但是振幅即使容差很小效果也不是很好，只有部分模拟很好。而且在最重要的28~29号数据（原因是要这附近的数据计算模拟原数据33号即0号子载波的数据）附近效果尤其差。</li>
 <li>分为实部和虚部分别模拟，总体效果差于相位模拟，但远远优于振幅模拟，特别是需要的28~29号数据附近，模拟效果良好。具体结果看（四）中配图。</li>
 </ol>
-<p>四、试验结果配图：</p>
-<p><img src="https://github.com/Charliegean/laboratory/blob/master/picture/r_1000_333.jpg" alt="振幅模拟">	<br>
-振幅模拟<br>
+<p>四、试验结果配图：<br>
+fig4：振幅模拟	<br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/r_1000_333.jpg" alt="振幅模拟">	<br>
+fig5：相位模拟<br>
 <img src="https://github.com/Charliegean/laboratory/blob/master/picture/ang_1000.jpg" alt="相位模拟"><br>
-相位模拟<br>
+fig6：实部模拟<br>
 <img src="https://github.com/Charliegean/laboratory/blob/master/picture/real_1000.jpg" alt="实部模拟"><br>
-实部模拟<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/imag_1000.jpg" alt="虚部模拟"><br>
-虚部模拟<br>
-五、代码（仅贴模拟振幅部分且插值区间放大1000倍的代码）</p>
+fig7：虚部模拟<br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/imag_1000.jpg" alt="虚部模拟"></p>
+<p>五、代码（仅贴模拟振幅部分且插值区间放大1000倍的代码）</p>
 <blockquote>
 <p>load(‘chanest_ex1.mat’);<br>
 data=unwrap(abs(chanEst),0.1);<br>
