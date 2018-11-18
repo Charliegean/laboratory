@@ -19,6 +19,8 @@
 <h2 id="四、处理截图">四、处理截图</h2>
 <p><strong>fig1</strong><br>
 <img src="https://github.com/Charliegean/laboratory/blob/master/picture/seven/ex7_ang_1.png" alt="fig1:原始数据角度"><br>
-<strong>fig2</strong><img src="https://github.com/Charliegean/laboratory/blob/master/picture/seven/ex7_index_1.png" alt="fig2:模拟信号原始信号与index的关系图像"><br>
-<strong>fig3</strong><img src="https://github.com/Charliegean/laboratory/blob/master/picture/seven/ex7_ang_1.png" alt="fig3:A28区间局部放大"></p>
+<strong>fig2</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/seven/ex7_index_1.png" alt="fig2:模拟信号原始信号与index的关系图像"><br>
+<strong>fig3</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/seven/ex7_ang_1.png" alt="fig3:A28区间局部放大"></p>
 
