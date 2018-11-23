@@ -32,7 +32,7 @@ fig4:使用unwrap后的局部放大<br>
 fig5：不带CFO的数据模拟分析<br>
 <img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle.png" alt="fig5"><br>
 fig6:不带CFO的局部放大<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_1.png" alt="fig6"><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap_1.png" alt="fig6"><br>
 fig7：使用unwrap之后的结果<br>
 <img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap.png" alt="fig7"><br>
 fig8：使用unwrap之后的局部放大<br>
