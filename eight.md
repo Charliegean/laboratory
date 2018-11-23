@@ -21,22 +21,30 @@
 </ol>
 <h2 id="四、截图">四、截图</h2>
 <ol start="7">
-<li>fig1：带 cfo的数据模拟分析<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/cfo_0_angle.png" alt="fig1"><br>
-fig2:带CFO的局部放大图像<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_1.png" alt="fig2"><br>
-fig3:使用unwrap之后的结果<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/cfo_0_angle_unwrap.png" alt="fig3"><br>
-fig4:使用unwrap后的局部放大<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/cfo_0_angle_unwrap_1.png" alt="fig4"><br>
-fig5：不带CFO的数据模拟分析<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle.png" alt="fig5"><br>
-fig6:不带CFO的局部放大<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap_1.png" alt="fig6"><br>
-fig7：使用unwrap之后的结果<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap.png" alt="fig7"><br>
-fig8：使用unwrap之后的局部放大<br>
-<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap_1.png" alt="fig8"></li>
 <li></li>
+</ol>
+<p><strong>fig1：带 cfo的数据模拟分析</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/cfo_0_angle.png" alt="fig1"><br>
+<strong>fig2:带CFO的局部放大图像</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_1.png" alt="fig2"><br>
+<strong>fig3:使用unwrap之后的结果</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/cfo_0_angle_unwrap.png" alt="fig3"><br>
+<strong>fig4:使用unwrap后的局部放大</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/cfo_0_angle_unwrap_1.png" alt="fig4"><br>
+<strong>fig5：不带CFO的数据模拟分析</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle.png" alt="fig5"><br>
+<strong>fig6:不带CFO的局部放大</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap_1.png" alt="fig6"><br>
+<strong>fig7：使用unwrap之后的结果</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap.png" alt="fig7"><br>
+<strong>fig8：使用unwrap之后的局部放大</strong><br>
+<img src="https://github.com/Charliegean/laboratory/blob/master/picture/eight/c_angle_unwrap_1.png" alt="fig8"></p>
+<h2 id="五、附注：">五、附注：</h2>
+<ol start="8">
+<li>使用CFO不为0的代码获得数据时得结果为<br>
+Impairments:<br>
+Sample rate offset (SRO): -100.0 PPM<br>
+Carrier frequency offset (CFO): -525052.5 Hz</li>
+<li>根据之前课程实验的经验，小于百分之五的误差相对较小，但具体的结果分析我觉得应该依靠计算出时间之后去判断结果是否可行，若要定位误差在亚分米（即小于十厘米）的程度，Δt应该小于0.33* 10^-9，具体由频域换算到时域的算法我不是很理解，所以不能判断误差是否足够小。</li>
 </ol>
 
