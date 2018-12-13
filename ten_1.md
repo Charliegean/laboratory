@@ -79,9 +79,9 @@
 <td align="center"><em><strong>40</strong></em></td>
 </tr>
 <tr>
-<td align="right">***54</td>
-<td align="center">5270</td>
-<td align="center">40***</td>
+<td align="right"><em><strong>54</strong></em></td>
+<td align="center"><em><strong>5270</strong></em></td>
+<td align="center"><em><strong>40</strong></em></td>
 <td align="center">161</td>
 <td align="center">5805</td>
 <td align="center">20</td>
